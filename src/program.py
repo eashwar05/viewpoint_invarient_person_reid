@@ -113,7 +113,7 @@ def main():
                              std=[0.229, 0.224, 0.225])
     ])
     
-    root_dir = r"C:\Users\neash\Downloads\VIPeR.v1.0\VIPeR"
+    root_dir = r"C:\Users\neash\Documents\Research Papers\VIPeR.v1.0\VIPeR"
     
     train_dataset = VIPeRDataset(root_dir=root_dir,
                                  split='train',
